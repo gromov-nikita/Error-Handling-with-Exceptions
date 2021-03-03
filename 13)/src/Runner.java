@@ -1,7 +1,10 @@
 /*
-Exercise 9: (2) Create three new types of exceptions. Write a class with a method that
+Exercise 13: (2) Modify Exercise 9 by adding a finally clause. Verify that your finally
+clause is executed, even if a NullPointerException is thrown.
+
+ Exercise 9: (2) Create three new types of exceptions. Write a class with a method that
 throws all three. In main( ), call the method but only use a single catch clause that will
-catch all three types of exceptions
+catch all three types of exceptions.
  */
 public class Runner {
     public static void e(int n) throws NullPointerException, ArrayIndexOutOfBoundsException, ArithmeticException {
