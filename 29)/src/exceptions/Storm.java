@@ -1,7 +1,7 @@
 package exceptions;
 
 public interface Storm {
-    public void event() throws RainedOut;
-    public void rainHard() throws RainedOut;
+    public void event();
+    public void rainHard();
 }
 

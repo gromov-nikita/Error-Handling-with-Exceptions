@@ -1,10 +1,10 @@
 package exceptions;
 
 public abstract class Inning {
-    public Inning() throws BaseballException {}
-    public void event() throws BaseballException {
+    public Inning() {}
+    public void event() {
         // Doesn’t actually have to throw anything
     }
-    public abstract void atBat() throws Strike, Foul;
+    public abstract void atBat();
     public void walk() {} // Throws no checked exceptions
 }

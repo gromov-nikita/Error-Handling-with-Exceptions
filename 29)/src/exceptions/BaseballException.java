@@ -1,3 +1,3 @@
 package exceptions;
 
-public class BaseballException extends Exception {}
+public class BaseballException extends RuntimeException {}

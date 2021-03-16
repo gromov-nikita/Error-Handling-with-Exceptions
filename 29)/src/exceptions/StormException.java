@@ -1,3 +1,3 @@
 package exceptions;
 
-public class StormException extends Exception {}
+public class StormException extends RuntimeException {}
