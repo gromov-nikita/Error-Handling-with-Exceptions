@@ -5,10 +5,10 @@ clause, throw a different exception (of a second type that you define). Test you
 main( ).
  */
 public class Runner {
-    public static void f() throws NullPointerException {
+    public static void f() {
         g();
     }
-    public static void g() throws NullPointerException {
+    public static void g() {
         throw new NullPointerException("NULLLLLLLLL...");
     }
 

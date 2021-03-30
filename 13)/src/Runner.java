@@ -7,7 +7,7 @@ throws all three. In main( ), call the method but only use a single catch clause
 catch all three types of exceptions.
  */
 public class Runner {
-    public static void e(int n) throws NullPointerException, ArrayIndexOutOfBoundsException, ArithmeticException {
+    public static void e(int n) {
         switch(n) {
             case 1 :
                 throw new ArrayIndexOutOfBoundsException("Index");
